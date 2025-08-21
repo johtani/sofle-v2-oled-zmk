@@ -87,7 +87,7 @@ layers:
   - Sft+8
   - Sft+9
   - '='
-  - BKSPC
+  - BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
