@@ -74,10 +74,10 @@
             label = "default";
 
             // ------------------------------------------------------------------------------------------------------------
-            // |  ESC  |  1  |  2  |  3  |  4  |   5   |                   |   6   |  7  |     8    |    9   |     0   | BKSPC |
-            // |  TAB  |  Q  |  W  |  E  |  R  |   T   |                   |   Y   |  U  |     I    |    O   |     P   | JP_MINUS |
+            // |  ESC  |  1  |  2  |  3  |  4  |   5   |                   |   6   |  7  |     8    |    9   |    0    | BSPC     |
+            // |  TAB  |  Q  |  W  |  E  |  R  |   T   |                   |   Y   |  U  |     I    |    O   |    P    | JP_MINUS |
             // | LCTRL |  A  |  S  |  D  |  F  |   G   |                   |   H   |  J  |     K    |    L   | JP_SEMI | JP_COLON |
-            // | SHIFT |  Z  |  X  |  C  |  V  |   B   |  MUTE  |  |       |   N   |  M  | JP_COMMA | JP_DOT | JP_SLASH| SHIFT |
+            // | SHIFT |  Z  |  X  |  C  |  V  |   B   |  MUTE  |  |       |   N   |  M  | JP_COMMA | JP_DOT | JP_SLASH|  SHIFT   |
             //               | END | GUI | ALT | LOWER |  SPACE |  | ENTER | RAISE | ALT |   RCTRL  | JP_ZKHK|
 
             bindings = <
@@ -118,14 +118,14 @@
 
             // ------------------------------------------------------------------------------------------------------------
             // | BTCLR |   BT1   |  BT2   |   BT3   |   BT4   |    BT5   |                |          |          |         |         |          |       |
-            // |       | JP_EXCL | JP_DQT | JP_HASH | JP_DLLR | JP_PRCNT |                | JP_AMPS  |  JP_SQT  | JP_LPAR | JP_RPAR | JP_CARET | BKSPC |
+            // |       | JP_EXCL | JP_DQT | JP_HASH | JP_DLLR | JP_PRCNT |                | JP_AMPS  |  JP_SQT  | JP_LPAR | JP_RPAR | JP_CARET | BSPC  |
             // |       |         |        |         |         |          |                | JP_MINUS | JP_EQUAL | JP_LBKT | JP_RBKT |  JP_YEN  | JP_AT |
             // |       |         |        |         |         |          |      |  |      | JP_MINUS | JP_COLON | JP_LBRC | JP_RBRC |  JP_PIPE |       |
             //                   |        |         |         |          |      |  |      |          |          |         |         |
 
             bindings = <
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans       &trans       &trans      &trans      &trans       &trans
-&trans  &kp JP_EXCL   &kp JP_DQT    &kp JP_HASH   &kp JP_DLLR   &kp JP_PRCNT                    &kp JP_AMPS  &kp JP_SQT   &kp JP_LPAR &kp JP_RPAR &kp JP_CARET &kp BKSPC
+&trans  &kp JP_EXCL   &kp JP_DQT    &kp JP_HASH   &kp JP_DLLR   &kp JP_PRCNT                    &kp JP_AMPS  &kp JP_SQT   &kp JP_LPAR &kp JP_RPAR &kp JP_CARET &kp BSPC
 &trans  &trans        &trans        &trans        &trans        &trans                          &kp JP_MINUS &kp JP_EQUAL &kp JP_LBKT &kp JP_RBKT &kp JP_YEN   &kp JP_AT
 &trans  &trans        &trans        &trans        &trans        &trans        &trans    &trans  &kp JP_MINUS &kp JP_COLON &kp JP_LBRC &kp JP_RBRC &kp JP_PIPE  &trans
                       &trans        &trans        &trans        &trans        &trans    &trans  &trans       &trans    &trans    &trans
