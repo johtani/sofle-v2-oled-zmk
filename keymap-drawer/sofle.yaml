@@ -60,7 +60,7 @@ layers:
   - raise
   - RALT
   - RCTRL
-  - {t: '`', h: toggle}
+  - {t: LANG ZENKAKUHANKAKU, h: toggle}
   lower:
   - '&studio_unlock'
   - F1
