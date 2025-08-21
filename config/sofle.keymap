@@ -15,7 +15,7 @@
 #define RAISE 2
 #define ADJUST 3
 
-#define JP_ZKHK  LANG_ZENKAKUHANKAKU        // Zenkaku ↔ Hankaku ↔ Kanji (半角 ↔ 全角 ↔ 漢字)
+#define JP_ZKHK  LANG1        // Zenkaku ↔ Hankaku ↔ Kanji (半角 ↔ 全角 ↔ 漢字)
 #define JP_MINUS MINUS        // -
 #define JP_CARET EQUAL        // ^
 #define JP_YEN   INT3         // ¥
