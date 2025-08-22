@@ -110,7 +110,7 @@
                    &studio_unlock     &trans       &trans    &trans     &trans    &trans  &trans       &trans    &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LC(JP_PLUS) LC(JP_MINUS);
         };
 
         raise_layer {
