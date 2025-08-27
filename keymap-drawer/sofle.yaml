@@ -47,7 +47,7 @@ layers:
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
+  - Sft+INT1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -108,7 +108,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
+  - Sft+INT1
   - ''''
   - Sft+]
   - Sft+#
@@ -136,20 +136,25 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - EP TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - RGB HUD
   - RGB HUI
   - RGB SAD
   - RGB SAI
   - RGB EFF
+  - RGB TOG
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - RGB BRD
   - RGB BRI
   - ''
@@ -163,11 +168,6 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB TOG
   - ''
   - ''
   - ''
